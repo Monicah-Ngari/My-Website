@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Components/Header";
 import About from "./Components/About";
 import Home from "./Components/Home";
@@ -8,11 +8,11 @@ import Education from "./Components/Education";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
-const [formData, setFormData] = useState({
-  name: "",
-  contacts: "",
-  email: "",
-});
+// const [formData, setFormData] = useState({
+//   name: "",
+//   contacts: "",
+//   email: "",
+// });
 
 const App = () => {
   return (
