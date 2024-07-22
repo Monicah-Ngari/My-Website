@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <h1> About Me</h1>
+      <h3> About Me</h3>
       Hello I'm Monicah Ngari, a front-end development specialist and
       enthusiastic web developer. With a solid background in HTML, CSS,
       Bootsrap, JavaScript, and React, I build user-friendly, dynamic websites

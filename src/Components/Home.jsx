@@ -4,7 +4,7 @@ import profileImage from "../Images/Profile.jpeg";
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h2>Home</h2>
       <img alt="My profile Picture" src={profileImage} />
     </div>
   );

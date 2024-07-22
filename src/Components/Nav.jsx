@@ -1,33 +1,40 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./Home";
+import Education from "./Education";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
-const Nav = () => {
+const App = () => {
   return (
-    <div>
-      <nav className="navbar">
-        <div className="navbar-left">
-          <a href="/" className="logo">
-            My Website
-          </a>
-        </div>
-        <div className="navbar-center">
-          <ul className="nav-links">
+    <Router>
+      <div className="App">
+        <nav>
+          <ul>
             <li>
-              <a href="/products">Home</a>
+              <Link to="/Home">Home</Link>
             </li>
             <li>
-              <a href="/about">Education</a>
+              <Link to="/Education">Education</Link>
             </li>
             <li>
-              <a href="/about">Skills</a>
+              <Link to="/Skills">Skills</Link>
             </li>
-
             <li>
-              <a href="/contact">Contact Me</a>
+              <Link to="/Contact">Contact Me</Link>
             </li>
           </ul>
-        </div>
-      </nav>
-    </div>
+        </nav>
+
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<ContactMe />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
-export default Nav;
+
+export default App;

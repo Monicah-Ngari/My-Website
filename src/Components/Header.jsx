@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import Logo from "../Images/Logo,jpeg";
+import Logo from "../Images/logo.jpeg";
 
 const Header = () => {
   return (
