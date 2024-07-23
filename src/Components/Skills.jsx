@@ -1,14 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHtml5,
-  faJs,
-  faReact,
-  faGitAlt,
-  faBootstrap,
-  faLinux,
-} from "@fortawesome/free-brands-svg-icons";
-import { faLaptopCode, faServer } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
   return (
@@ -22,70 +13,47 @@ const Skills = () => {
         bring to the tech industry:
       </p>
 
-      <h3>Technical Skills</h3>
-      <div className="skills-list">
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faHtml5} size="2x" />
-          <p>
-            <strong>HTML & CSS:</strong> Proficient in building responsive and
-            accessible web pages.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faJs} size="2x" />
-          <p>
-            <strong>JavaScript:</strong> Skilled in vanilla JavaScript and
-            modern frameworks.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faReact} size="2x" />
-          <p>
-            <strong>React:</strong> Experienced in developing dynamic and
-            interactive user interfaces.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faGitAlt} size="2x" />
-          <p>
-            <strong>Version Control:</strong> Expertise in using Git for version
-            control and collaboration.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faServer} size="2x" />
-          <p>
-            <strong>APIs:</strong> Proficient in working with RESTful APIs and
-            using Postman for testing.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faLinux} size="2x" />
-          <p>
-            <strong>Linux:</strong> Competent in using Linux commands for
-            development and deployment tasks.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faBootstrap} size="2x" />
-          <p>
-            <strong>Bootstrap:</strong> Skilled in using Bootstrap for rapid and
-            responsive web design.
-          </p>
-        </div>
-        <div className="skill-item">
-          <FontAwesomeIcon icon={faLaptopCode} size="2x" />
-          <p>
-            <strong>UI/UX Principles:</strong> Understanding of user-centered
-            design principles and best practices.
-          </p>
-        </div>
-      </div>
+      <h3>
+        <em>Technical Skills</em>
+      </h3>
+      <ul class="skills">
+        <li class="skill">
+          Crafting pixel-perfect, responsive layouts with HTML5 and CSS3 to
+          ensure optimal user experience across all devices.
+        </li>
+        <li class="skill">
+          Mastering JavaScript to build interactive and dynamic web applications
+          that engage users and enhance usability.
+        </li>
+        <li class="skill">
+          Harnessing the power of React.js to develop robust and scalable
+          front-end solutions, delivering seamless user interfaces and efficient
+          data management.
+        </li>
+        <li class="skill">
+          Demonstrating strong problem-solving abilities and meticulous
+          attention to detail in debugging and troubleshooting, ensuring smooth
+          functionality and performance.
+        </li>
+        <li class="skill">
+          Proficient in utilizing Linux operating systems, including
+          command-line navigation, package management, and system administration
+          tasks.
+        </li>
+        <li class="skill">Web Development.</li>
+        <li class="skill">
+          Experienced in seamlessly integrating third-party APIs to enhance web
+          application functionality.
+        </li>
+      </ul>
 
       <h3>Key Projects</h3>
       <div className="projects-list">
         <div className="project-item">
-          <h4>Weather App</h4>
+          <h4>
+            {" "}
+            <a href="https://superb-youtiao-7bdfc7.netlify.app/">Weather App</a>
+          </h4>
           <p>
             <strong>Description:</strong> Developed a full-featured weather
             application using React, integrating various APIs to enhance
@@ -100,7 +68,13 @@ const Skills = () => {
           </p>
         </div>
         <div className="project-item">
-          <h4>Music Website</h4>
+          <h4>
+            {" "}
+            <a href="https://polite-kleicha-bb7bc8.netlify.app/">
+              {" "}
+              Music Website
+            </a>
+          </h4>
           <p>
             <strong>Description:</strong> Created a responsive and dynamic music
             website with Bootstrap and JavaScript.

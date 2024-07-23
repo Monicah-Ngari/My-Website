@@ -12,13 +12,13 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="./Home">{Home}</Link>
+              <Link to="./Home">Home</Link>
             </li>
             <li>
-              <Link to="./Education">{Education}</Link>
+              <Link to="./Education">Education</Link>
             </li>
             <li>
-              <Link to="./Skills">{Skills}</Link>
+              <Link to="./Skills">Skills</Link>
             </li>
             <li>
               <Link to="./Contact">Contact</Link>
@@ -30,7 +30,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/education" element={<Education />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<ContactMe />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

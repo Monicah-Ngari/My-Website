@@ -18,8 +18,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <About />
       <Home />
+      <About />
       <Projects />
       <Skills />
       <Education />
