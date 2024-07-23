@@ -9,6 +9,7 @@
 .App {
     text-align: center;
     background-color: #D8BFD8;
+    margin: 0;
 }
 
 nav {
@@ -83,4 +84,31 @@ h3 {
 .about-me p {
     font-size: 1.1rem;
     line-height: 1.6;
+}
+
+/* Projects */
+.projects-list h3 {
+    font: 80px;
+}
+
+.projects-list {
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #f1f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-list h3 {
+    font: 40px;
+}
+
+.project-item strong {
+    color: #333;
+}
+
+.project-item a {
+    text-decoration: none;
 }
