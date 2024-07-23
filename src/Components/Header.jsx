@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles.css";
+
 import Nav from "./Nav";
 import Logo from "../Images/logo.jpeg";
 
@@ -9,8 +11,6 @@ const Header = () => {
         <img src={Logo} alt="Logo" style={{ width: "130px", height: "auto" }} />
       </header>
       <Nav />
-
-      <h1>Monicah Ngari - Web Developer</h1>
     </div>
   );
 };

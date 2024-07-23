@@ -1,10 +1,12 @@
 import React from "react";
+import "../styles.css";
 
 const Education = () => {
   return (
     <div>
       <h3>Education</h3>
       <strong>Diploma:</strong> Diploma in Project Planning & Management.
+      <br></br>
       <strong>Institution:</strong> Chuka University.
       <h5>Additional Courses </h5>
       <strong>Certifications:</strong>

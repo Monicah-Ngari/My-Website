@@ -1,0 +1,86 @@
+/* Styling Header */
+.MyLogo {
+
+    margin-right: 0;
+}
+
+
+/* Styling nav bar */
+.App {
+    text-align: center;
+    background-color: #D8BFD8;
+}
+
+nav {
+    background-color: #A52A2A;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* .container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+/* Styling Home */
+h1 {
+    color: #8a2be2;
+    font: 60px;
+}
+
+.Profile {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+/* About */
+h3 {
+    color: #0023F5;
+}
+
+.about-me {
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about-me p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
