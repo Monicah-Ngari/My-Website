@@ -6,11 +6,13 @@ const Contact = () => {
     <div className="Contact">
       <h3>Contact Me</h3>
       <form>
-        <label>Name</label>
+        <label>Name:</label> <br></br>
         <input />
-        <label></label>
+        <label> Email:</label>
+        <br></br>
         <input />
-        <label></label>
+        <label> Message</label>
+        <br></br>
         <input />
       </form>
     </div>

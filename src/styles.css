@@ -4,12 +4,20 @@
     margin-right: 0;
 }
 
+/* images {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: popIn 2s forwards;
+} */
+
 
 /* Styling nav bar */
 .App {
     text-align: center;
     background-color: #111111;
     margin: 0;
+    /* opacity: 0;
+    animation: fadeIn 2s forwards; */
 }
 
 nav {
@@ -102,8 +110,14 @@ h3 {
 }
 
 .projects-list h3 {
-    font: 40px;
+    font: 50px;
+
 }
+
+.projects-list h4 {
+    color: red;
+}
+
 
 .project-item strong {
     color: #333;
@@ -111,4 +125,35 @@ h3 {
 
 .project-item a {
     text-decoration: none;
+}
+
+
+/* Skills */
+.skills-section {
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: linear-gradient(135deg, #ff1493, #ff8c00);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Education */
+.education {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background: whitesmoke;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.education h5 {
+    color: #8a2be2;
+    font-size: 20px;
 }
