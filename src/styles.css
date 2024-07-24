@@ -16,8 +16,10 @@
     text-align: center;
     background-color: #111111;
     margin: 0;
-    /* opacity: 0;
-    animation: fadeIn 2s forwards; */
+    border-radius: 8px;
+    /* opacity: 0; */
+    list-style: ;
+    animation: fadeIn 2s forwards;
 }
 
 nav {
@@ -77,11 +79,11 @@ h3 {
 .about-me {
     text-align: left;
     max-width: 800px;
-    margin: 2rem auto;
-    background-color: #fff;
+    margin: 0 auto;
+    background: #FFFFFF;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .about-me h3 {
@@ -102,11 +104,11 @@ h3 {
 .projects-list {
     text-align: left;
     max-width: 800px;
-    margin: 2rem auto;
-    background-color: #f1f9fa;
+    margin: 0 auto;
+    background: #FFFFFF;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .projects-list h3 {
@@ -132,11 +134,11 @@ h3 {
 .skills-section {
     text-align: left;
     max-width: 800px;
-    margin: 2rem auto;
-    background: linear-gradient(135deg, #ff1493, #ff8c00);
+    margin: 0 auto;
+    background: #FFFFFF;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 
 }
 
@@ -146,14 +148,26 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: whitesmoke;
+    background: #FFFFFF;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 
 }
 
 .education h5 {
     color: #8a2be2;
     font-size: 20px;
+}
+
+/* Contact */
+.contact {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #a5f19d;
+    padding: 1.5rem;
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
 }
