@@ -223,3 +223,48 @@ h3 {
 .contact input[type="submit"]:active {
     background-color: #004080;
 }
+
+/* Footer */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    color: #8a2be2;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #0056b3;
+}
+
+.contact-links a:active {
+    color: #003580;
+}
+
+
+@media only screen and (max-width: 767px) {
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-links a {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+}

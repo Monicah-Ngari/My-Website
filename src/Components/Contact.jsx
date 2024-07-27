@@ -44,6 +44,7 @@ const Contact = () => {
         <input type="submit" value="Send" />
         <br></br>
       </form>
+      <p>You can call /text me on +2547 48213109</p>
     </div>
   );
 };
