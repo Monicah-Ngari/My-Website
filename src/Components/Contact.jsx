@@ -14,23 +14,30 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("Message sent 👍");
+          alert("Message sent 👍");
+          form.current.reset();
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("FAILED...", error.text);
         }
       );
   };
 
   return (
     <div className="contact">
+      <h2>Contact Me</h2>
+
       <form ref={form} onSubmit={sendEmail}>
         <label className="name">Name</label>
         <input type="text" name="user_name" />
         <br></br>
+        <br></br>
+
         <label className="email">Email</label>
         <input type="email" name="user_email" />
         <br></br>
+        <br></br>
+
         <label className="message">Message</label>
         <textarea name="message" />
         <br></br>

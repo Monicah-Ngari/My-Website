@@ -4,11 +4,6 @@
     margin-right: 0;
 }
 
-/* images {
-    opacity: 0;
-    transform: scale(0.9);
-    animation: popIn 2s forwards;
-} */
 
 
 /* Styling nav bar */
@@ -18,7 +13,6 @@
     color: white;
     margin: 0;
     border-radius: 8px;
-    /* opacity: 0; */
     animation: fadeIn 2s forwards;
 }
 
@@ -49,14 +43,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* .container {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
+
 
 /* Styling Home */
 h1 {
@@ -84,12 +71,12 @@ h3 {
     ;
     padding: 1.5rem;
 
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .about-me h3 {
-    font-size: 1.8rem;
+    font-size: 40px;
     margin-bottom: 1rem;
+    text-decoration: underline;
 }
 
 .about-me p {
@@ -110,11 +97,12 @@ h3 {
     ;
     padding: 1.5rem;
 
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
 }
 
 .projects-list h3 {
-    font: 50px;
+    font-size: 40px;
+    text-decoration: underline;
 
 }
 
@@ -124,13 +112,16 @@ h3 {
 
 
 .project-item strong {
-    color: #333;
+    color: #e1184a;
 }
 
 .project-item a {
     text-decoration: none;
 }
 
+.project-item ul {
+    font-size: 25px;
+}
 
 /* Skills */
 .skills-section {
@@ -141,10 +132,18 @@ h3 {
     ;
     padding: 1.5rem;
 
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 
 }
 
+.skills-section h2 {
+    color: #0023F5;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.skills-section h3 {
+    color: #8a2be2;
+}
 
 /* Education */
 .education {
@@ -152,11 +151,14 @@ h3 {
     max-width: 800px;
     margin: 0 auto;
     background: #111111;
-    ;
+
     padding: 1.5rem;
 
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
 
+.education h3 {
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 .education h5 {
@@ -173,6 +175,51 @@ h3 {
 
     padding: 25px;
 
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 
+
+}
+
+.contact h2 {
+    color: aqua;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #8a2be2;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact input[type="submit"]:active {
+    background-color: #004080;
 }

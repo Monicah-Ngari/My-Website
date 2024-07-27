@@ -18,7 +18,6 @@ const About = () => {
         honing my ability to provide meaningful and creative solutions when I'm
         not coding
       </p>
-      .
     </div>
   );
 };
