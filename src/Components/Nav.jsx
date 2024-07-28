@@ -9,10 +9,10 @@ const NavigationBar = () => {
       <Container>
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Projects</Nav.Link>
-          <Nav.Link href="#features">Skills</Nav.Link>
-          <Nav.Link href="#features"> Education</Nav.Link>
-          <Nav.Link href="#pricing">Contact Me</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#skills">Skills</Nav.Link>
+          <Nav.Link href="#education"> Education</Nav.Link>
+          <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
