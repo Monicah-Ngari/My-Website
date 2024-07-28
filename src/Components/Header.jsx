@@ -23,10 +23,10 @@ const Header = () => {
           <NavigationBar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/pProjects" element={<Projects />} />
+            <Route path="/Skills" element={<Skills />} />
+            <Route path="/Education" element={<Education />} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
         </header>
       </div>

@@ -262,20 +262,24 @@ h3 {
         padding: 0;
         text-align: center;
     }
+}
+
+.Header {
+    width: 100%;
+}
 
 
 
-    img {
-        margin: auto;
-    }
+img {
+    margin: auto;
+}
 
-    .contact-links {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.contact-links {
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    .contact-links a {
-        font-size: 16px;
-        padding: 10px 0;
-    }
+.contact-links a {
+    font-size: 16px;
+    padding: 10px 0;
 }
