@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../styles.css";
-import Home from "./Home";
-import Education from "./Education";
-import Skills from "./Skills";
-import Contact from "./Contact";
-import Nav from "./Nav";
+import NavigationBar from "./Nav";
 import Logo from "../Images/logo.jpeg";
+import Home from "./Home";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import Education from "./Education";
+import Contact from "./Contact";
 
 const Header = () => {
   return (
@@ -19,17 +20,15 @@ const Header = () => {
             style={{ width: "130px", height: "auto" }}
             className="MyLogo"
           />
-          <Nav />
-        </header>
-
-        <div className="container">
+          <NavigationBar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/education" element={<Education />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/education" element={<Education />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div>
+        </header>
       </div>
     </Router>
   );
