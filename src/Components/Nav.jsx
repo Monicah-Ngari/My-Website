@@ -4,7 +4,12 @@ import "../styles.css"; // Make sure to import your custom CSS if needed
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="primary" expand="lg" variant="dark" className="navbar-dark">
+    <Navbar
+      bg="primary"
+      expand="lg"
+      variant="text-white"
+      className="navbar-dark"
+    >
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
