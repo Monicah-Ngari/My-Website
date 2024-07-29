@@ -46,7 +46,11 @@ const Contact = () => {
           <br></br>
         </form>
         <p>
-          You can call /text me on<strong>+2547 48213109</strong>{" "}
+          You can call /text me on
+          <strong>
+            {" "}
+            <a href=""> +2547 48213109</a>
+          </strong>{" "}
         </p>
       </section>
     </div>

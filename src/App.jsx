@@ -16,7 +16,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="App">
       <Header />
       <Home />
       <About />
