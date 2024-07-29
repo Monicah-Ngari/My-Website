@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 import Header from "./Components/Header";
@@ -10,15 +10,13 @@ import Education from "./Components/Education";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
-// const [formData, setFormData] = useState({
-//   name: "",
-//   contacts: "",
-//   email: "",
-// });
-
 const App = () => {
+  useEffect(() => {
+    document.title = "Monicah's Website";
+  }, []);
+
   return (
-    <div className="App">
+    <div>
       <Header />
       <Home />
       <About />
@@ -30,4 +28,5 @@ const App = () => {
     </div>
   );
 };
+
 export default App;

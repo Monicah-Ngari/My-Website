@@ -22,7 +22,7 @@ const Header = () => {
           />
           <NavigationBar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/pProjects" element={<Projects />} />
             <Route path="/Skills" element={<Skills />} />
             <Route path="/Education" element={<Education />} />

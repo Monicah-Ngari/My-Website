@@ -17,7 +17,7 @@
     color: white;
     margin: 0;
     border-radius: 8px;
-    animation: fadeIn 2s forwards;
+    /* animation: fadeIn 2s forwards; */
 }
 
 nav {
@@ -259,8 +259,39 @@ h3 {
 
 @media only screen and (max-width: 767px) {
     .App {
-        padding: 0;
+        padding: 0 1rem;
         text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .Profile,
+    .about-me,
+    .projects-list,
+    .skills-section,
+    .education,
+    .contact {
+        padding: 1rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-links a {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    h1,
+    .about-me h3,
+    .projects-list h3,
+    .skills-section h2,
+    .education h3 {
+        font-size: 2rem;
     }
 }
 
@@ -268,18 +299,7 @@ h3 {
     width: 100%;
 }
 
-
-
 img {
     margin: auto;
-}
-
-.contact-links {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.contact-links a {
-    font-size: 16px;
-    padding: 10px 0;
+    max-width: 100%;
 }
