@@ -25,26 +25,30 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h2>Contact Me</h2>
+      <section id="contact">
+        <h2>Contact Me</h2>
 
-      <form ref={form} onSubmit={sendEmail}>
-        <label className="name">Name</label>
-        <input type="text" name="user_name" />
-        <br></br>
-        <br></br>
+        <form ref={form} onSubmit={sendEmail}>
+          <label className="name">Name</label>
+          <input type="text" name="user_name" />
+          <br></br>
+          <br></br>
 
-        <label className="email">Email</label>
-        <input type="email" name="user_email" />
-        <br></br>
-        <br></br>
+          <label className="email">Email</label>
+          <input type="email" name="user_email" />
+          <br></br>
+          <br></br>
 
-        <label className="message">Message</label>
-        <textarea name="message" />
-        <br></br>
-        <input type="submit" value="Send" />
-        <br></br>
-      </form>
-      <p>You can call /text me on +2547 48213109</p>
+          <label className="message">Message</label>
+          <textarea name="message" />
+          <br></br>
+          <input type="submit" value="Send" />
+          <br></br>
+        </form>
+        <p>
+          You can call /text me on<strong>+2547 48213109</strong>{" "}
+        </p>
+      </section>
     </div>
   );
 };

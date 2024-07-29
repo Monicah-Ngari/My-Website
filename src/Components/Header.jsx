@@ -11,26 +11,17 @@ import Contact from "./Contact";
 
 const Header = () => {
   return (
-    <Router>
-      <div className="Header">
-        <header>
-          <img
-            src={Logo}
-            alt="Logo"
-            style={{ width: "130px", height: "auto" }}
-            className="MyLogo"
-          />
-          <NavigationBar />
-          <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
-            <Route path="/pProjects" element={<Projects />} />
-            <Route path="/Skills" element={<Skills />} />
-            <Route path="/Education" element={<Education />} />
-            <Route path="/Contact" element={<Contact />} />
-          </Routes>
-        </header>
-      </div>
-    </Router>
+    <div className="Header">
+      <header>
+        <img
+          src={Logo}
+          alt="Logo"
+          style={{ width: "130px", height: "auto" }}
+          className="MyLogo"
+        />
+        <NavigationBar />
+      </header>
+    </div>
   );
 };
 

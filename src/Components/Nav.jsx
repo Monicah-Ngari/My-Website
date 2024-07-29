@@ -1,19 +1,42 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+  Container,
+} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "../styles.css"; // Make sure to import your custom CSS if needed
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="primary" data-bs-theme="dark">
-      <Container>
-        <Nav className="me-auto">
-          <Nav.Link href="#Home">Home</Nav.Link>
-          <Nav.Link href="#Projects">Projects</Nav.Link>
-          <Nav.Link href="#Skills">Skills</Nav.Link>
-          <Nav.Link href="#Education"> Education</Nav.Link>
-          <Nav.Link href="#Contact">Contact</Nav.Link>
-        </Nav>
+    <Navbar bg="primary" expand="lg" variant="dark" className="navbar-dark">
+      <Container fluid>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: "100px" }}
+            navbarScroll
+          >
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+          <Form className="d-flex">
+            <FormControl
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
