@@ -4,7 +4,7 @@ import "../styles.css";
 const About = () => {
   return (
     <div className="about-me">
-      <section id="home">
+      <section id="about">
         <h3> About Me</h3>
         <p>
           Hello I'm Monicah Ngari, a front-end development specialist and
