@@ -15,7 +15,7 @@
     text-align: center;
     background-color: #111111;
     color: white;
-    margin: 0;
+    margin: 0 auto;
     border-radius: 8px;
     /* animation: fadeIn 2s forwards; */
 }
