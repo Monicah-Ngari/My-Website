@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles.css";
 
 const About = () => {
@@ -7,17 +6,17 @@ const About = () => {
       <section id="about">
         <h3> About Me</h3>
         <p>
-          Hello I'm Monicah Ngari, a front-end development specialist and
-          enthusiastic web developer. With a solid background in HTML, CSS,
-          Bootsrap, Tailwind, JavaScript, React and React Native, I build
-          user-friendly, dynamic websites that are interactive and responsive. I
-          know how to integrate APIs, work with Linux, and make sure that apps
-          are reliable and effective by using tools like Postman. In order to
-          stay ahead of the always changing web development industry, I thrive
-          on finding solutions to challenging challenges and constantly learning
-          new technologies. I enjoy learning about new technology trends,
-          contributing to open-source projects, and honing my ability to provide
-          meaningful and creative solutions when I'm not coding
+          I'm Monicah Ngari, a front-end developer passionate about bringing
+          ideas to life through compelling web experiences. My core skills
+          include HTML, CSS, JavaScript, React, and React Native, enabling me to
+          build dynamic, responsive websites and applications that are both
+          visually appealing and functionally robust. I have practical
+          experience integrating APIs, working within Linux environments, and
+          using tools like Postman to ensure seamless performance. I'm a
+          problem-solver at heart, always seeking opportunities to learn and
+          grow within the ever-evolving world of web development. When I'm not
+          coding, I enjoy exploring new tech trends and contributing to the
+          open-source community.
         </p>
       </section>
     </div>
