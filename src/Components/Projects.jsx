@@ -15,7 +15,7 @@ const Projects = () => {
               <li>
                 <div className="project-item">
                   <h4> Weather App</h4>
-                  <a href="https://superb-youtiao-7bdfc7.netlify.app/">
+                  <a href="https://weather-app-mwn.netlify.app/">
                     <img
                       src={Weatherapp}
                       alt="weather application"
@@ -40,7 +40,7 @@ const Projects = () => {
               <li>
                 <div className="project-item">
                   <h4> Music Website</h4>
-                  <a href="https://polite-kleicha-bb7bc8.netlify.app/">
+                  <a href="https://sonic-spotlight-mwn.netlify.app/">
                     {" "}
                     <img
                       src={Musicweb}
@@ -65,7 +65,7 @@ const Projects = () => {
               <li>
                 <div className="project-item">
                   <h4> Landing Page</h4>
-                  <a href="https://steady-salamander-af1b8e.netlify.app/">
+                  <a href="https://landing-page-mwn.netlify.app/">
                     {" "}
                     <img
                       src={Landingpage}
