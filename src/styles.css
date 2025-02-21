@@ -9,6 +9,19 @@
     width: 400px;
 }
 
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
 
 /* Styling nav bar */
 .App {
