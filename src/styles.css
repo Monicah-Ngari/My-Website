@@ -18,7 +18,7 @@
 }
 
 .logo {
-    width: 130px;
+    width: 200px;
     height: auto;
 }
 
@@ -26,7 +26,7 @@
 /* Styling nav bar */
 .App {
     text-align: center;
-    background-color: #111111;
+    background-color: #000000;
     color: white;
     margin: 0 auto;
     border-radius: 8px;
