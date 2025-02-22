@@ -27,13 +27,14 @@ nav a {
 
 }
 
+
 nav a:hover {
     color: #0056b3;
 }
 
 .App {
 
-    background-color: hwb(0 2% 7%);
+    background-color: rgb(176, 237, 240);
     color: white;
 
 }
@@ -131,8 +132,6 @@ h3 {
     text-align: left;
     max-width: 1000px;
     margin: 0 auto;
-
-    background: hsl(0, 0%, 2%);
     padding: 30px;
 
 
