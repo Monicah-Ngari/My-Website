@@ -19,12 +19,14 @@ const App = () => {
     <div className="App">
       <Header />
       <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Education />
-      <Contact />
-      <Footer />
+      <div className="content-grid">
+        <About />
+        <Projects />
+        <Skills />
+        <Education />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };

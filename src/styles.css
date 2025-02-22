@@ -71,10 +71,10 @@ h3 {
 }
 
 .about-me {
-    text-align: left;
+    /* text-align: left; */
     max-width: 800px;
-    margin: 0 auto;
-    background: #111111;
+    margin: 10px;
+    background: hsl(330, 88%, 60%);
     ;
     padding: 1.5rem;
 
@@ -100,8 +100,7 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: #111111;
-    ;
+    background: hsl(330, 88%, 60%);
     padding: 1.5rem;
 
 
@@ -135,8 +134,7 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: #111111;
-    ;
+    background: hsl(330, 88%, 60%);
     padding: 1.5rem;
 
 
@@ -157,7 +155,7 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: #111111;
+    background: hsl(330, 88%, 60%);
 
     padding: 1.5rem;
 
@@ -179,7 +177,7 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: #111111;
+    background: hsl(330, 88%, 60%);
 
     padding: 25px;
 
