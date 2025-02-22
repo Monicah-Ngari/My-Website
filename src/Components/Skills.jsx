@@ -18,32 +18,32 @@ const Skills = () => {
       <h3>
         <em>Technical Skills</em>
       </h3>
-      <ul class="skills">
-        <li class="skill">
+      <ul className="skills">
+        <li className="skill">
           Crafting pixel-perfect, responsive layouts with HTML5 and CSS3 to
           ensure optimal user experience across all devices.
         </li>
-        <li class="skill">
+        <li className="skill">
           Mastering JavaScript to build interactive and dynamic web applications
           that engage users and enhance usability.
         </li>
-        <li class="skill">
+        <li className="skill">
           Harnessing the power of React.js to develop robust and scalable
           front-end solutions, delivering seamless user interfaces and efficient
           data management.
         </li>
-        <li class="skill">
+        <li className="skill">
           Demonstrating strong problem-solving abilities and meticulous
           attention to detail in debugging and troubleshooting, ensuring smooth
           functionality and performance.
         </li>
-        <li class="skill">
+        <li className="skill">
           Proficient in utilizing Linux operating systems, including
           command-line navigation, package management, and system administration
           tasks.
         </li>
-        <li class="skill">Web Development.</li>
-        <li class="skill">
+        <li className="skill">Web Development.</li>
+        <li className="skill">
           Experienced in seamlessly integrating third-party APIs to enhance web
           application functionality.
         </li>

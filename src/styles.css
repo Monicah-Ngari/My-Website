@@ -8,15 +8,55 @@
     width: 130px;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
 
-/* Styling nav bar */
+nav li {
+    margin: 0 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
 .App {
-    /* text-align: center; */
-    background-color: #eddf0f;
-    color: white;
-    margin: 0 auto;
 
-    /* animation: fadeIn 2s forwards; */
+    background-color: hsl(296, 69%, 76%);
+    color: white;
+
+}
+
+.content-grid {
+    /* display: flex; */
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-grid>* {
+    margin: 0 10px;
+}
+
+.content-grid> :nth-child(5),
+
+.content-grid> :nth-child(6) {
+    flex-grow: 1;
+
 }
 
 
@@ -72,10 +112,9 @@ h3 {
 
 .about-me {
     /* text-align: left; */
-    max-width: 800px;
-    margin: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
     background: hsl(330, 88%, 60%);
-    ;
     padding: 1.5rem;
 
 }
@@ -92,16 +131,19 @@ h3 {
 }
 
 /* Projects */
+
+
 .projects-list h3 {
     font: 80px;
 }
 
 .projects-list {
     text-align: left;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+
     background: hsl(330, 88%, 60%);
-    padding: 1.5rem;
+    padding: 30px;
 
 
 }
@@ -133,7 +175,7 @@ h3 {
 .skills-section {
     text-align: left;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px 20px 10px auto;
     background: hsl(330, 88%, 60%);
     padding: 1.5rem;
 
