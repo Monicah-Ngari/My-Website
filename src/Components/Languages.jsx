@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../Images/css.jpeg";
-import html5 from "../Images.html5.jpeg";
-import js from "../Images.js.jpeg";
+import html5 from "../Images/html5.jpeg";
+import js from "../Images/js.jpeg";
 import react from "../Images/react.jpeg";
 
 function Languages() {

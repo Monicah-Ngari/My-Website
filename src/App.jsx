@@ -10,6 +10,7 @@ import Education from "./Components/Education";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Certificates from "./Components/Certificates";
+import Languages from "./Components/Languages";
 
 const App = () => {
   useEffect(() => {
@@ -36,7 +37,7 @@ const App = () => {
           <Education />
         </div>
         <div>
-          <Contact />
+          <Languages />
         </div>
         <div>
           <Certificates />
@@ -44,6 +45,7 @@ const App = () => {
       </div>
       <div>
         <Footer />
+        <Contact />
       </div>
     </div>
   );
