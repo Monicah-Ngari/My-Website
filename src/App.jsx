@@ -20,11 +20,25 @@ const App = () => {
       <Header />
       <Home />
       <div className="content-grid">
-        <About />
-        <Projects />
-        <Skills />
-        <Education />
-        <Contact />
+        <div>
+          <About />
+        </div>
+        <div>
+          {" "}
+          <Projects />
+        </div>
+        <div>
+          <Skills />
+        </div>
+        <div>
+          {" "}
+          <Education />
+        </div>
+        <div>
+          <Contact />
+        </div>
+      </div>
+      <div>
         <Footer />
       </div>
     </div>

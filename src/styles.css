@@ -44,14 +44,15 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 4rem;
+    width: 100%;
 }
 
 .content-grid>* {
-    background-color: #222;
+
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(255, 115, 0, 0.3);
-    color: white;
+    color: rgb(0, 0, 0);
+
 }
 
 
@@ -105,7 +106,7 @@ h3 {
     /* text-align: left; */
     max-width: 1000px;
     margin: 0 auto;
-    background: hsl(0, 0%, 2%);
+    color: rgb(0, 0, 0);
     padding: 1.5rem;
 
 }
@@ -122,6 +123,7 @@ h3 {
 }
 
 /* Projects */
+
 
 
 .projects-list h3 {
@@ -165,7 +167,6 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 10px 20px 10px auto;
-    background: hsl(0, 0%, 2%);
     padding: 1.5rem;
 
 
@@ -186,7 +187,7 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: hsl(0, 0%, 2%);
+    color: black;
 
     padding: 1.5rem;
 
@@ -208,7 +209,7 @@ h3 {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    background: hsl(0, 0%, 2%);
+    color: black;
 
     padding: 25px;
 
@@ -217,7 +218,7 @@ h3 {
 }
 
 .contact h2 {
-    color: aqua;
+    color: rgb(255, 0, 247);
 }
 
 .contact form {
@@ -297,6 +298,10 @@ h3 {
 
     nav ul {
         flex-direction: column;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
     }
 
     .Profile,
