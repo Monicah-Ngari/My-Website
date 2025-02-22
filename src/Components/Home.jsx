@@ -7,12 +7,14 @@ const Home = () => {
   return (
     <div>
       <section id="home">
-        <h1>Monicah Ngari - Web Developer</h1>
-        <img
-          alt="My profile Picture"
-          src={profileImage}
-          className="Profile cimg-fluid"
-        />
+        <div className="Hero">
+          <h1>Monicah Ngari - Web Developer</h1>
+          <img
+            alt="My profile Picture"
+            src={profileImage}
+            className="Profile cimg-fluid"
+          />
+        </div>
       </section>
     </div>
   );

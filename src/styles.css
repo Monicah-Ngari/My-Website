@@ -18,7 +18,7 @@
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -26,7 +26,7 @@
 /* Styling nav bar */
 .App {
     text-align: center;
-    background-color: #000000;
+    background-color: #faf8f8;
     color: white;
     margin: 0 auto;
     border-radius: 8px;
@@ -43,11 +43,23 @@ h1 {
     font: 60px;
 }
 
+.home {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
 .Profile {
-    width: 450px;
+    width: 300px;
+    ;
     height: 450px;
     object-fit: cover;
     padding: 10px;
+}
+
+.Hero {
+    max-width: 800px;
+    margin: 0 auto;
+
 }
 
 /* About */
