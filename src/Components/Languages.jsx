@@ -6,13 +6,13 @@ import react from "../Images/react.jpeg";
 
 function Languages() {
   return (
-    <div>
+    <div className="languages-container">
       {" "}
       <div>
         {" "}
-        <h1>My Proficient Languages</h1>
+        <h1 className="languages-title">My Proficient Languages</h1>
       </div>
-      <div>
+      <div className="languages-list">
         <img src={html5} alt="HTML5 image" />
         <img src={css} alt="Css image" />
         <img src={js} alt="Java sript image" />
