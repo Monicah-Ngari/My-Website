@@ -3,6 +3,7 @@
     top: 10px;
     left: 10px;
     z-index: 100;
+
     height: auto;
     width: 130px;
 }
@@ -11,9 +12,10 @@
 /* Styling nav bar */
 .App {
     /* text-align: center; */
-    background-color: #3bc4bf;
+    background-color: #eddf0f;
     color: white;
     margin: 0 auto;
+
     /* animation: fadeIn 2s forwards; */
 }
 
@@ -27,24 +29,41 @@ h1 {
     font: 60px;
 }
 
-.home {
-    text-align: center;
-    padding: 4rem 2rem;
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero-text {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.hero-image {
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
 }
 
 .Profile {
-    width: 300px;
-    ;
+    width: 450px;
     height: 450px;
     object-fit: cover;
     padding: 10px;
+    border-radius: 50%;
 }
 
-.Hero {
-    max-width: 800px;
-    margin: 0 auto;
-
-}
 
 /* About */
 h3 {

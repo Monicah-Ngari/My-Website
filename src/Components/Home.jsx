@@ -7,8 +7,11 @@ const Home = () => {
   return (
     <div>
       <section id="home">
-        <div className="Hero">
-          <h1>Monicah Ngari - Web Developer</h1>
+        <div className="hero">
+          <h1>
+            Monicah Ngari - Web Developer: Creating seamless and polished web
+            applications.
+          </h1>
           <img
             alt="My profile Picture"
             src={profileImage}

@@ -44,7 +44,7 @@ const NavigationBar = () => {
               href="#about"
               style={{
                 color: "blue",
-                margin: "0 15px",
+                margin: "0 20px",
               }}
             >
               About
@@ -53,7 +53,7 @@ const NavigationBar = () => {
               href="#projects"
               style={{
                 color: "blue",
-                margin: "0 15px",
+                margin: "0 20px",
               }}
             >
               Projects
