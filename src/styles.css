@@ -55,6 +55,10 @@ nav a:hover {
 
 }
 
+.content h1 {
+    text-align: center;
+}
+
 
 h1 {
     color: #002df4;
@@ -204,6 +208,39 @@ h3 {
     margin: "20px";
 }
 
+
+
+.certificates-container {
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+
+
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.certificates-grid img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(255, 115, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.certificates-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 115, 0, 0.5);
+}
+
 /* Contact */
 .contact {
     text-align: left;
@@ -290,6 +327,8 @@ h3 {
 }
 
 
+
+
 @media only screen and (max-width: 767px) {
     .App {
         padding: 0;
@@ -321,6 +360,10 @@ h3 {
     .contact-links a {
         font-size: 16px;
         padding: 10px 0;
+    }
+
+    .certificates-grid {
+        grid-template-columns: 1fr;
     }
 
     h1,

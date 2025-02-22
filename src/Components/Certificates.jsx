@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles.css";
 
 import htmlCss from "../Images/htmlCss.png";
 import ResponsiveCert from "../Images/ResponsiveCert.png";
@@ -9,12 +10,11 @@ function Certificates() {
   return (
     <div>
       <h1>Certificates</h1>
-      <div>
-        <div>
+      <div className="certificates-container">
+        <div className="certificates-grid">
           <img src={htmlCss} alt="HTML & CSS  Certificate" />
           <img src={ResponsiveCert} alt="Responsiveness Certificate" />
-        </div>
-        <div>
+
           <img src={WebdevCert} alt="Web developmemt Certificate" />
           <img src={ReactCert} alt="React Certificate" />
         </div>
