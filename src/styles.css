@@ -1,25 +1,19 @@
-/* header */
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-}
-
 .logo {
-    width: 70px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
     height: auto;
-    margin-right: 0;
+    width: 130px;
 }
 
 
 /* Styling nav bar */
 .App {
     /* text-align: center; */
-    background-color: #faf8f8;
+    background-color: #3bc4bf;
     color: white;
     margin: 0 auto;
-    border-radius: 8px;
     /* animation: fadeIn 2s forwards; */
 }
 
