@@ -5,7 +5,7 @@ import "../styles.css";
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className="custom-navbar">
       <Container>
         <Navbar.Toggle
           aria-controls="navbarScroll"
