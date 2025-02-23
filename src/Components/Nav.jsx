@@ -1,13 +1,17 @@
-// import React from "react";
+import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "../styles.css";
 
 const NavigationBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <Navbar>
+    <Navbar expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle
+          aria-controls="navbarScroll"
+          onClick={() => setIsOpen(!isOpen)}
+        />
+        <Navbar.Collapse id="navbarScroll" className={isOpen ? "show" : ""}>
           <Nav navbarScroll>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
