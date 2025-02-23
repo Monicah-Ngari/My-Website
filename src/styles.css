@@ -3,9 +3,9 @@
     top: 10px;
     left: 10px;
     z-index: 100;
-
     height: auto;
     width: 130px;
+    border-radius: 50%;
 }
 
 nav ul {
@@ -63,6 +63,10 @@ nav a:hover {
 
     background-color: rgb(176, 237, 240);
     color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -393,7 +397,7 @@ h3 {
 
 @media only screen and (max-width: 767px) {
     .App {
-        padding: 0;
+        padding: 10px;
         text-align: center;
     }
 

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 import Header from "./Components/Header";
@@ -18,36 +19,42 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <div className="content-grid">
-        <div>
-          <About />
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 3 }}
+    >
+      <div className="App">
+        <Header />
+        <Home />
+        <div className="content-grid">
+          <div>
+            <About />
+          </div>
+          <div>
+            {" "}
+            <Projects />
+          </div>
+          <div>
+            <Skills />
+          </div>
+          <div>
+            {" "}
+            <Education />
+          </div>
+          <div>
+            <Languages />
+          </div>
+          <div>
+            <Certificates />
+          </div>
         </div>
         <div>
-          {" "}
-          <Projects />
-        </div>
-        <div>
-          <Skills />
-        </div>
-        <div>
-          {" "}
-          <Education />
-        </div>
-        <div>
-          <Languages />
-        </div>
-        <div>
-          <Certificates />
+          <Footer />
+          <Contact />
         </div>
       </div>
-      <div>
-        <Footer />
-        <Contact />
-      </div>
-    </div>
+    </motion.div>
   );
 };
 
