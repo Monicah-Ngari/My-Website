@@ -1,3 +1,11 @@
+:root {
+    --secondary-color: rgb(255, 0, 247);
+
+    --primary-color: rgb(176, 237, 240);
+
+
+}
+
 .logo {
     position: absolute;
     top: 10px;
@@ -61,7 +69,7 @@ nav a:hover {
 
 .App {
 
-    background-color: rgb(176, 237, 240);
+    background-color: var(--primary-color);
     color: white;
     margin: 0;
     padding: 0;
@@ -133,7 +141,7 @@ h1 {
 
 /* About */
 h3 {
-    color: #0023F5;
+    color: var(--secondary-color);
 }
 
 .about-me {
@@ -162,6 +170,7 @@ h3 {
 
 .projects-list h3 {
     font: 80px;
+
 }
 
 .projects-list {
@@ -207,7 +216,7 @@ h3 {
 }
 
 .skills-section h2 {
-    color: #0023F5;
+    color: var(--secondary-color);
     font-size: 40px;
     text-decoration: underline;
 }
@@ -246,6 +255,14 @@ h3 {
     color: white;
 }
 
+.cerfificates-tittle {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-decoration: underline;
+    margin: 15px;
+    padding: 10px;
+}
 
 
 .certificates-grid {
@@ -281,10 +298,12 @@ h3 {
 }
 
 .languages-title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    color: blue;
+    color: var(--secondary-color);
+    text-decoration: underline;
     margin: 15px;
+    padding-bottom: 40px;
 }
 
 .languages-list {
@@ -321,7 +340,7 @@ h3 {
 }
 
 .contact h2 {
-    color: rgb(255, 0, 247);
+    color: var(--secondary-color);
 }
 
 .contact form {
@@ -402,6 +421,7 @@ h3 {
     }
 
     .logo {
+        letter-spacing: normal;
         width: 30px;
         height: auto;
     }

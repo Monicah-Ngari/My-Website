@@ -9,7 +9,7 @@ import ReactCert from "../Images/ReactCert.png";
 function Certificates() {
   return (
     <div>
-      <h1>Certificates</h1>
+      <h1 className="cerfificates-tittle">Certificates</h1>
       <div className="certificates-container">
         <div className="certificates-grid">
           <img src={htmlCss} alt="HTML & CSS  Certificate" />
