@@ -38,8 +38,6 @@ nav a:hover {
 
 }
 
-
-
 .resume-button {
     display: inline-block;
     background-color: #007bff;
@@ -53,7 +51,7 @@ nav a:hover {
 }
 
 .resume-button:hover {
-    background-color: #0056b3;
+    background-color: #1f3246;
     transform: scale(1.05);
 }
 
@@ -410,6 +408,7 @@ h3 {
 
     .content-grid {
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
     .Profile,
