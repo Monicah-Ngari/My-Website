@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles.css";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 const Skills = () => {
   return (
     <div className="skills-section">
