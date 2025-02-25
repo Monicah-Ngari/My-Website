@@ -409,6 +409,7 @@ h3 {
     .App {
         padding: 10px;
         text-align: center;
+        color: var(--primary-color);
     }
 
     .logo {
